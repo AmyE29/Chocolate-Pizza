@@ -1,5 +1,5 @@
 html{
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 body{ 
@@ -29,9 +29,27 @@ body{
 #header-boarder{
 
 }
+#ingredients {
+    background-image: url('images/list-bg.png');
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 200px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+#left {
+    padding: 40px;
+    margin-left: 20px;
+}
+#right {
+   padding: 40px;
+   position: relative;
+   left: 500px;
+   bottom: 193px;
+}
 
 header{
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 }
 
 #printicons{
@@ -46,4 +64,7 @@ header{
     text-indent: 2em;
     margin-top: 25px;
     
+}
+.strike-through {
+    text-decoration: line-through;
 }
