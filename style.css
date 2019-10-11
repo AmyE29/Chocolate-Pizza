@@ -1,0 +1,49 @@
+html{
+    width: 960px;
+    margin: 0 auto;
+}
+body{ 
+    width: 100%;
+}
+
+#logo{
+    display: inline-block;
+}
+#fancy{
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.5em;
+}
+#plain{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50%;
+}
+.navicons{
+    list-style: none;
+    display: inline-block;
+}
+
+#nav{
+    float: right;
+}
+
+#header-boarder{
+
+}
+
+header{
+    margin-bottom: 50px;;
+}
+
+#printicons{
+    float: right;
+}
+
+#choco {
+    width: 100%;
+}
+
+.indent{
+    text-indent: 2em;
+    margin-top: 25px;
+    
+}
