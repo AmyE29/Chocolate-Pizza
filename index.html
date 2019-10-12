@@ -5,7 +5,7 @@
         <link type="text/css" rel="stylesheet" href= "reset.css">
         <link type="text/css" rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Noto+Serif|Patrick+Hand&display=swap" rel="stylesheet">
     <title>Lab-02</title>
     </head>
     <body>
@@ -15,7 +15,7 @@
             </div>
             <div id ="logo">
                 <p id= "fancy">Delicious</p>
-                <p id= "plain">THE BEST FOOD BLOG ON THE WEB</p>
+                <p class= "plain">THE BEST FOOD BLOG ON THE WEB</p>
             </div>             
             <div id="nav">
                 <li class = "navicons"> <img src ="images/fb-icon.png" ></li>
@@ -27,14 +27,15 @@
                 <li class = "navicons"> <img src ="images/rss-icon.png" ></li>
                 <li class = "navicons"> <img src ="images/mail-icon.png" ></li>
             </div>
-            <img id = "header-boarder" src="images/hr-img.png" >
+            <hr id = "header-boarder" src="images/hr-img.png" >
+          
         </header>
         <main>
-            <h1 id="title">Chocolate Pizza</hi>
-                <p> Posted on 15 Dec 2013/Desserts</p>
+            <h1 id="title">Chocolate Pizza</h1>
+                <pi class="plain"> Posted on 15 Dec 2013/Desserts</p>
             <div id= "printicons">
-                <img src = "images/print-icon.png">
-                <p> print</p>
+                <img id="printer" src = "images/print-icon.png">
+                <p id="print"> print</p>
             </div>
                 <img id= "choco" src= "images/choco-pizza.png">      
             <div>
@@ -67,13 +68,23 @@
             
         </main>
         <footer>
-            <img src="images/hr-img.png">
+            <hr id="header-boarder" src="images/hr-img.png">
             <img src="images/van-pic.png">
-            <p>Vanessa Stevenson</p>
-            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much what I am.</p>
-            <button></button>
-            <img src = "images/small-logo.png">
-            <p>Delicious &copy; 2013. All rights resevered. Proudly published with Ghost.</p>
+            
+            <div id="bio">
+                <div id="inner-bio">
+                    <p id="name">Vanessa Stevenson</p>
+                    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much what I am.</p>
+                </div>
+                <button>Share Recipe</button>
+            </div>
+            <div id="footer-bottom">
+                
+                <hr id="footer-icon">
+                <hr>
+                <p id="copyr">Delicious &copy; 2013. All rights resevered. <br> Proudly published with Ghost.</p>
+            </div>
+            
         </footer>
     </body>
 
